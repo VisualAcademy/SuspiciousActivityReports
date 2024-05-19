@@ -9,5 +9,8 @@ namespace MemoEngine.Data
             : base(options)
         {
         }
+
+        // SuspiciousActivityReport 테이블을 추가합니다.
+        //public DbSet<MemoEngine.Models.SuspiciousActivityReport> SuspiciousActivityReports { get; set; }
     }
 }
