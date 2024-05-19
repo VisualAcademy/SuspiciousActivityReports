@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoEngine", "MemoEngine\MemoEngine.csproj", "{6825538C-56C7-4669-9B8A-17B9420D9187}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MemoEngine.SqlServer", "MemoEngine.SqlServer\MemoEngine.SqlServer.sqlproj", "{DAD8F6B7-0CDA-4F2B-9005-C06532BEA690}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{6825538C-56C7-4669-9B8A-17B9420D9187}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6825538C-56C7-4669-9B8A-17B9420D9187}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6825538C-56C7-4669-9B8A-17B9420D9187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD8F6B7-0CDA-4F2B-9005-C06532BEA690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD8F6B7-0CDA-4F2B-9005-C06532BEA690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD8F6B7-0CDA-4F2B-9005-C06532BEA690}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DAD8F6B7-0CDA-4F2B-9005-C06532BEA690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD8F6B7-0CDA-4F2B-9005-C06532BEA690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD8F6B7-0CDA-4F2B-9005-C06532BEA690}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
