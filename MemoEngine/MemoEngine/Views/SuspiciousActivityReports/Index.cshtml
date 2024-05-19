@@ -1,0 +1,335 @@
+﻿@model IEnumerable<MemoEngine.Models.SuspiciousActivityReport>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ReportCorrectionIndicator)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subject_Multiple)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MiddleInitial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AlsoKnownAs)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DoingBusinessAs)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Occupation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.State)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ZIPCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfBirth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GovtIssuedID_Type)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GovtIssuedID_Number)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GovtIssuedID_IssuingState)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SSN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ITIN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EIN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccountNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumberHome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumberWork)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VehicleLicenseNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VehicleLicenseState)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CasinoAffiliation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BusinessRelationshipStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SuspiciousActivityType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SuspiciousActivityStartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SuspiciousActivityEndDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SuspiciousActivityAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LawEnforcementContacted)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactPersonName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactPersonPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReportingCasinoTradeName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReportingCasinoLegalName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CasinoAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CasinoCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CasinoState)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CasinoZIPCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GamingInstitutionType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CasinoEIN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactLastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactFirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactMiddleInitial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactWorkPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReportPreparedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NarrativeDescription)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReportCorrectionIndicator)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Subject_Multiple)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MiddleInitial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AlsoKnownAs)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DoingBusinessAs)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Occupation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.State)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ZIPCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Country)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfBirth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GovtIssuedID_Type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GovtIssuedID_Number)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GovtIssuedID_IssuingState)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SSN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ITIN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EIN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumberHome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumberWork)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleLicenseNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleLicenseState)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CasinoAffiliation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BusinessRelationshipStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SuspiciousActivityType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SuspiciousActivityStartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SuspiciousActivityEndDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SuspiciousActivityAmount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LawEnforcementContacted)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactPersonName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactPersonPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReportingCasinoTradeName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReportingCasinoLegalName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CasinoAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CasinoCity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CasinoState)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CasinoZIPCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GamingInstitutionType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CasinoEIN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactLastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactFirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactMiddleInitial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactWorkPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReportPreparedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NarrativeDescription)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
